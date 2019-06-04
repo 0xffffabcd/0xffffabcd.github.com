@@ -16,7 +16,7 @@ a {
 }
 
 a:visited {
-    color:grey;
+    color: grey;
 }
 
 h1 {
@@ -36,6 +36,7 @@ code {
     color: white;
     margin-top: 1.2em;
 }
+
 .container {
     display: flex;
     flex-direction: column;
@@ -47,22 +48,19 @@ div {
     text-align: center;
 }
 
-@media only screen and (min-device-width: 768px) {
+@media only screen and (min-device-width:768px) {
     h1 {
         font-size: 3em;
     }
-
     code {
         margin-top: 1em;
         font-size: 2em;
     }
-
     .links a:before {
         width: 2.3em;
         line-height: 2.3em;
         font-size: 2em;
     }
-
     ul.links {
         margin-top: 3em;
     }
@@ -99,18 +97,16 @@ ul.links {
     color: #fff;
 }
 
-    .links a:hover {
-        -webkit-animation: bigger 0.2s forwards;
-        animation: bigger 0.2s forwards;
-        -webkit-animation-timing-function: ease-in;
-        animation-timing-function: ease-in;
-    }
+.links a:hover {
+    -webkit-animation: bigger 0.2s forwards;
+    animation: bigger 0.2s forwards;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+}
 
 .hidden {
     display: none;
 }
-
-/* Animations */
 
 .blink {
     -webkit-animation: blink 1s infinite;
@@ -138,7 +134,6 @@ ul.links {
 }
 
 @-webkit-keyframes bigger {
-
     to {
         -webkit-transform: scale(1.1, 1.1);
         transform: scale(1.1, 1.1);
@@ -146,7 +141,6 @@ ul.links {
 }
 
 @keyframes bigger {
-
     to {
         -webkit-transform: scale(1.1, 1.1);
         transform: scale(1.1, 1.1);
@@ -159,7 +153,6 @@ ul.links {
         -webkit-transform: translate3d(0, 100%, 0);
         transform: translate3d(0, 100%, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: none;
@@ -173,7 +166,6 @@ ul.links {
         -webkit-transform: translate3d(0, 100%, 0);
         transform: translate3d(0, 100%, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: none;
@@ -183,26 +175,16 @@ ul.links {
 
 .delay-1 {
     animation-delay: 0.5s;
-    /*-webkit-animation-delay: 0.7s;
-    -moz-animation-delay: 0.7s;*/
 }
 
 .delay-2 {
     animation-delay: 0.6s;
-    /*-webkit-animation-delay: 0.8s;
-    -moz-animation-delay: 0.8s;*/
 }
 
 .delay-3 {
     animation-delay: 0.7s;
-    /*-webkit-animation-delay: 0.9s;
-    -moz-animation-delay: 0.9s;*/
 }
 
 .delay-4 {
     animation-delay: 0.8s;
-    /*-webkit-animation-delay: 0.4s;
-    -moz-animation-delay: 0.4s;*/
 }
-
-/* End of animations */
