@@ -2,13 +2,17 @@ html {
     position: relative;
     min-height: 100%;
     background-color: black;
-    background: url("../assets/bg2-b-min.jpg") no-repeat center center fixed;
+    /* background: url("../assets/bg2-b-min.jpg") no-repeat center center fixed; */
+
+    background-image: url(../assets/bg2-b-min.webp);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat no-repeat;
+    background-attachment: fixed;
+
     background-size: cover;
     font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-html, body {
-    height: 100%;
 }
 
 a {
